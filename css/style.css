@@ -39,17 +39,13 @@ body,html{
 }
 
 .tour .tour-left {
-    width: 65%;
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
 .tour .tour-right {
-    width: 35%;
-}
-
-.tour-left .tour-left__top {
-    width: 30%;
+    width: 40%;
 }
 
 .tour-left .tour-left__bottom {
@@ -57,8 +53,8 @@ body,html{
 }
 
 .tour-info{
-    width: 80%;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     background: #FEFEFE;
     border-radius: 8px;
     position: relative;
