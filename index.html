@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Link Hover Animation -->
+   <link rel="stylesheet" href="./css/hoverAnimation.css">
+    <!-- Link Button Animated -->
+    <link rel="stylesheet" href="./css/buttonAnimated.css">
     <!-- CountDownTime -->
     <link rel="stylesheet" href="./css/countdown.css">
     <!-- Grid-System -->
@@ -30,48 +34,50 @@
         <div class="tour__items">
             <div class="tour-left">
                 <div class="tour-left__top">
+                    <h1> BEST SALE</h1>
                   <div class="example">
                     <div id="flipdown" class="flipdown"></div>
                 </div>
-                <div class="tour-left__bottom">
-                    <div class="tour-info">
-                        <div class="tour-info__items sectionX20">
-                            <div class="tour-info-img">
-                                <img src="./assets/imgs/Hue1.jpg" alt="Huế 1">
-                            </div>
-                            <div class="tour-info-title">
-                                <h2>Travel Huế 2 Day-1 Night</h2>
-                            </div>
-                            <div class="tour-info-text sectionY10">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </div>
-                            <div class="tour-info-price">
-                                640.000VND <s>800.000</s><span>VND</span> 
-                            </div>
-                            <div class="tour-info-button sectionY20">
-                                <button>BUY NOW</button>
-                            </div>
+            </div>
+            <div class="tour-left__bottom">
+                <div class="tour-info">
+                    <div class="tour-info__items sectionX20">
+                        <div class="tour-info-img">
+                            <img src="./assets/imgs/Hue1.jpg" alt="Huế 1">
+                        </div>
+                        <div class="tour-info-title">
+                            <h2>Travel Huế 2 Day-1 Night</h2>
+                        </div>
+                        <div class="tour-info-text sectionY10">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                        <div class="tour-info-price">
+                            640.000VND <s>800.000</s><span>VND</span> 
+                        </div>
+                        <div class="tour-info-button sectionY20">
+                            <button class="button">BUY NOW</button>
                         </div>
                     </div>
-                    <div class="tour-info">
-                        <div class="tour-info__items sectionX20">
-                            <div class="tour-info-img">
-                                <img src="./assets/imgs/Sapa1.png" alt="Sapa 1">
-                            </div>
-                            <div class="tour-info-title">
-                                <h2>Travel Vinh Ha Long 2 Day-1 Night</h2>
-                            </div>
-                            <div class="tour-info-text sectionY10">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </div>
-                            <div class="tour-info-price">
-                                640.000VND <s>800.000</s><span>VND</span> 
-                            </div>
-                            <div class="tour-info-button sectionY20">
-                                <button>BUY NOW</button>
-                            </div>
+                </div>
+                <div class="tour-info">
+                    <div class="tour-info__items sectionX20">
+                        <div class="tour-info-img">
+                            <img src="./assets/imgs/Sapa1.png" alt="Sapa 1">
+                        </div>
+                        <div class="tour-info-title">
+                            <h2>Travel Vinh Ha Long 2 Day-1 Night</h2>
+                        </div>
+                        <div class="tour-info-text sectionY10">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                        <div class="tour-info-price">
+                            640.000VND <s>800.000</s><span>VND</span> 
+                        </div>
+                        <div class="tour-info-button sectionY20">
+                            <button class="button button1">BUY NOW</button>
                         </div>
                     </div>
+                    
                 </div>
             </div>
           </div>
@@ -90,15 +96,39 @@
                     640.000VND <s>800.000</s><span>VND</span> 
                 </div>
                 <div class="tour-info-button sectionY20">
-                    <button>BUY NOW</button>
+                    <button class="button button2">BUY NOW</button>
                 </div>
             </div>
         </div></div>
     </section>
     <!-- Destination -->
     <section class="destinnation container">
-      <div class="topDestinnation"></div>
-      <div class="destinnation__Images"></div>
+        <div class="destinnation__title sectionY20">
+            <h1>Top Destination</h1>
+            <p>Việt Nam Reasons should be your one-stop-stop-shop!</p>
+        </div>
+        <div class="destinnation__items sectionY10">
+            <div class="angry-grid">
+            <div id="item-0">
+                <img src="./assets/imgs/Hue1.jpg" alt="">
+            </div>
+            <div id="item-1">
+                <img src="./assets/imgs/VHL1.jpg" alt="">
+            </div>
+            <div id="item-2">
+                <img src="./assets/imgs/VHL1.jpg" alt="">
+            </div>
+            <div id="item-3">
+                <img src="./assets/imgs/VHL1.jpg" alt="">
+            </div>
+            <div id="item-4">
+                <img src="./assets/imgs/VHL1.jpg" alt="">
+            </div>
+            <div id="item-5">
+                <img src="././assets/imgs/Sapa1.png" alt="">
+            </div>
+          </div>
+        </div>
     </section>
     <!-- Tour-Guide -->
     <section class="tourGuide"></section>

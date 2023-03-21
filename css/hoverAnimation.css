@@ -1,0 +1,18 @@
+
+  .tour-info__items::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background: #3B82F6;
+    transition: all 0.4s ease;
+    width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+  }
+  .tour-info__items:hover::after{
+    transform: scaleX(1);
+  transform-origin: left;
+  }
