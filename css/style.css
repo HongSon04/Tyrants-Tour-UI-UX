@@ -171,6 +171,7 @@ button{
 
   grid-row-end: 2;
   grid-column-end: 3;
+  transition: 1ms .5s ease-in-out;
 
 }
 
@@ -181,6 +182,7 @@ button{
 
   grid-row-end: 4;
   grid-column-end: 3;
+  transition: all .5s;
 
 }
 
@@ -216,7 +218,6 @@ button{
 
 #item-5 {
 
-  background-color: #959FF7;
   grid-row-start: 3;
   grid-column-start: 3;
 
@@ -241,6 +242,7 @@ button{
   display: grid;
   position: relative;
   margin: 12px;
+  overflow: hidden;
 }
 #item-0 img,
 #item-1 img,
@@ -254,7 +256,51 @@ button{
   position: absolute;
 }
 
-
+#item-0:hover .overLayout{
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.452),transparent);
+  transition: all .5s;
+}
+.overLayout{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all .5s;
+}
+.textHoverShow{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-left: 25px;
+}
+.textHoverShow__rate-items{
+  width: 43px;
+  height: 18px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 18px;
+  color: #FFAE00;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  transform: translateY(-150px);
+  transition: all .5s;
+}
+.textHoverShow__text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  transform: translateY(300px);
+  transition: all .5s;
+  color: #FFFFFF;
+}
+#item-0:hover .textHoverShow__rate-items{
+  transform: translateY(20px);
+}
+#item-0:hover .textHoverShow__text{
+  transform: translateY(120px);
+}
 /* Tour-Guide */
 
 /* ExperienceLive */
