@@ -658,27 +658,19 @@ button {
 #item-0:hover .textHoverShow__text {
   transform: translateY(120px);
 }
-#item-1 .textHoverShow__rate-items{
-  transform: translateY(-200px);
-}
-#item-1 .textHoverShow__text{
-  transform: translateY(600px);
-}
-#item-1:hover .textHoverShow__rate-items{
-  transform: translateY(-50px);
-}
-#item-1:hover .textHoverShow__text{
-  transform: translateY(350px);
-}
+#item-1 .textHoverShow__rate-items,
 #item-2 .textHoverShow__rate-items{
   transform: translateY(-200px);
 }
+#item-1 .textHoverShow__text,
 #item-2 .textHoverShow__text{
   transform: translateY(600px);
 }
+#item-1:hover .textHoverShow__rate-items,
 #item-2:hover .textHoverShow__rate-items{
   transform: translateY(40px);
 }
+#item-1:hover .textHoverShow__text,
 #item-2:hover .textHoverShow__text{
   transform: translateY(350px);
 }
