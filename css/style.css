@@ -372,13 +372,13 @@ header img{
 }
 
 .tour .tour-left {
-  width: 60%;
+  width: 66.666666%;
   display: flex;
   flex-direction: column;
 }
 
 .tour .tour-right {
-  width: 40%;
+  width: 33.333333%;
 }
 
 .tour-left__top h1 {
@@ -408,9 +408,12 @@ header img{
 
 .tour-info-img img {
   width: 100%;
+  height: 350px;
   padding: 28px 0 18px;
 }
-
+.img--height{
+  height: 575px !important;
+}
 .tour-info-title h2 {
   font-family: 'Poppins';
   font-style: normal;
@@ -1226,26 +1229,53 @@ color: white;
 
 
 
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
 
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; 
+  border-radius: 10px;
+}
 
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.form-hiden-sign input{
+  width: 300px;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
 
 
 

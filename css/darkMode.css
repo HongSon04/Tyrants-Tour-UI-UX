@@ -1,0 +1,27 @@
+body.darkMode {
+    color: #9da9bb;
+    background-color: #292929 !important;
+  }
+  
+  .darkMode .sidebarMini {
+    background-color: #292929;
+    color: #fff;
+    border-left-color: #292929;
+  }
+  
+  .darkMode .sidebarMini .sidebarMini__button {
+    background-color: #292929;
+    border-color: #292929;
+    color: #fff;
+  }
+  .darkMode .needToKnow{
+    background-color: #292929;
+  }
+  .darkMode .rightside_content::before,
+  .darkMode .right_side::after{
+    content: "";
+    background-color: #292929;
+  }
+  .darkMode .right_side_content_text{
+    color: #fff;
+  }
