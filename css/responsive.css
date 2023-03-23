@@ -1,5 +1,4 @@
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px){
+@media screen and (max-width: 575.98px){
     .tour .tour__items{
         display: block !important;
     }
@@ -34,10 +33,12 @@
     #item-0, #item-1, #item-2, #item-3, #item-4, #item-5{
         margin: 8px !important;
     }
-    /* .angry-grid {
+     .angry-grid {
         display: grid !important; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+     
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
         grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        
         gap: 0px !important;
         height: 100% !important;
         
@@ -47,50 +48,122 @@
         grid-row-start: 1 !important;
         grid-column-start: 1 !important;
      
-        grid-row-end: 3 !important;
+        grid-row-end: 4 !important;
         grid-column-end: 5 !important;
         
      }
      #item-1 {
-        grid-row-start: 3 !important;
+        grid-row-start: 4 !important;
         grid-column-start: 1 !important;
      
-        grid-row-end: 5 !important;
+        grid-row-end: 6 !important;
         grid-column-end: 3 !important;
         
      }
      #item-2 {
-        grid-row-start: 3 !important;
+        grid-row-start: 4 !important;
         grid-column-start: 3 !important;
      
-        grid-row-end: 5 !important;
+        grid-row-end: 6 !important;
         grid-column-end: 5 !important;
         
      }
      #item-3 {
-        grid-row-start: 5 !important;
+        grid-row-start: 6 !important;
         grid-column-start: 1 !important;
      
-        grid-row-end: 7 !important;
+        grid-row-end: 8 !important;
         grid-column-end: 3 !important;
         
      }
      #item-4 {
-        grid-row-start: 5 !important;
+        grid-row-start: 6 !important;
         grid-column-start: 3 !important;
      
-        grid-row-end: 7 !important;
+        grid-row-end: 8 !important;
         grid-column-end: 5 !important;
         
      }
      #item-5 {
-        grid-row-start: 7 !important;
+        grid-row-start: 8 !important;
         grid-column-start: 1 !important;
      
-        grid-row-end: 9 !important;
+        grid-row-end: 11 !important;
         grid-column-end: 5 !important;
         
-     } */
+     }
+     .tourGuide__left {
+        width: 40% !important;
+    }
+    .tourGuide__Title h2{
+        margin-left: 20px !important;
+    }
+    .tourGuide__right {
+        width: 60% !important;
+    }
+    .tourGuide__left img{
+        height: 445px !important;
+    }
+    .tourGuide__border h2 {
+        margin: 10px 0 0 20px !important;
+        font-size: 25px !important;
+    }
+    .tourGuide__border h3 {
+        margin: 10px 0 10px 20px !important;
+        font-size: 16px !important;
+    }
+    .tourGuide__border p {
+        margin: 10px 0 10px 20px !important;
+        font-size: 12px !important;
+    }
+    .tourGuide__border {
+        width: 95% !important;
+        height: 75% !important;
+    }
+    
+    .tourGuide__Icons div {
+        margin: 15px 0px 0px 20px !important;
+    }
+    .tourGuide__Images img{
+        display: none !important;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .tour .tour__items{
+        display: block !important;
+    }
+    .tour .tour-left{
+        width: 100% !important;
+        margin: 25px 0!important;
+    }
+    .tour .tour-right{
+        width: 100% !important;
+    }
+    .tour-info-price{
+        justify-content: center;
+        flex-direction: column-reverse !important;
+    }
+    .tour-info{
+        margin: 0 !important;
+    }
+    .tour-info-price span{
+        display: none;
+    }
+    .tour-info-mr-tablet{
+        margin-left: 15px !important;
+    }
+    .tour-info-img img{
+        padding: 20px 0 0 !important;
+        border-radius: 15px !important;
+        margin-bottom: 15px;
+    }
+    .destinnation__items{
+        padding: 12px !important;
+    }
+    #item-0, #item-1, #item-2, #item-3, #item-4, #item-5{
+        margin: 8px !important;
+    }
      .angry-grid {
         display: grid !important; 
      
@@ -200,7 +273,7 @@
         width: 100% !important;
     }
     .tour-info{
-        max-height: 90%;
+        max-height: 40% !important;
     }
     .tour-info-price{
         justify-content: center !important;

@@ -38,27 +38,6 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Form-Đăng ký tour -->
-    <!-- <div id="myModal" class="form-hiden">
-      <div class="form-hiden-out"></div>
-      <div class="form-hiden__items">
-        <div class="form-hiden-bgwhite">
-          <div class="form">
-            <span class="close">&times;</span>
-            <h1>Đăng ký ngay nhận ưu đãi</h1>
-          </div>
-          <form class="form-hiden-sign" action="">
-            Họ và Tên <br>
-            <input type="text" name="" id="" placeholder="Vui lòng điền họ và tên"> <br>
-            Số điện thoại <br>
-            <input type="text" name="" id="" placeholder="Vui lòng điền số điện thoại"> <br>
-            Gmail <br>
-            <input type="text" name="" id="" placeholder="Vui lòng điền Gmail">
-            <button class="btutton">Đăng ký</button>
-          </form>
-        </div>
-      </div>
-    </div> -->
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -66,16 +45,19 @@
   <div class="modal-content">
     <span class="close">&times;</span>
     <div class="form">
-      <h1>Đăng ký ngay nhận ưu đãi</h1>
+      <h1>Sign up for offers</h1>
     </div>
     <form class="form-hiden-sign" action="">
-      Họ và Tên <br>
-      <input type="text" name="" id="" placeholder="Vui lòng điền họ và tên"> <br>
-      Số điện thoại <br>
-      <input type="text" name="" id="" placeholder="Vui lòng điền số điện thoại"> <br>
-      Gmail <br>
-      <input type="text" name="" id="" placeholder="Vui lòng điền Gmail"> <br>
-      <button class="button">Đăng ký</button>
+      <input type="text" name="" id="" placeholder="Your Name"> <br>
+      <input type="tel" name="" id="" placeholder="Your Number Phone"> <br>
+      <input type="email" name="" id="" placeholder="Your Gmail"> <br>
+      <select>
+        <option value="">Select Tour</option>
+        <option value="">Hue</option>
+        <option value="">Sapa</option>
+        <option value="">Ha Long Bay</option>
+      </select>
+      <button id="btn-alert" class="button">Sign Up</button>
     </form>
   </div>
 </div>
@@ -190,8 +172,7 @@
                                     <h2>Travel Huế 2 Day-1 Night</h2>
                                 </div>
                                 <div class="tour-info-text sectionY10">
-                                  Immerse in history with unique cultural heritage in Hue, savor distinctive cuisine and relish unforgettable moments in an exciting journey of exploration.
-                                  Immerse in history with unique, savor distinctive cuisine and relish unforgettable moments.
+                                  Hue, a central Vietnamese city, boasts a rich cultural heritage with landmarks such as the ancient Imperial City and Thien Mu Pagoda. Visitors can also enjoy tasty cuisine and breathtaking natural scenery.
                                 </div>
                                 <div class="tour-info-price">
                                     640.000VND <s>800.000</s><span>VND</span>
@@ -210,9 +191,7 @@
                                     <h2>Travel Sapa 2 ngày-1 đêm</h2>
                                 </div>
                                 <div class="tour-info-text sectionY10">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                                    galley of type and scrambled it to make a type specimen book.
+                                  Sapa, a mountainous town in northern Vietnam, offers stunning landscapes, rice terraces, and unique cultural experiences with ethnic minority tribes. The town also has cozy homestays, delicious local food.
                                 </div>
                                 <div class="tour-info-price">
                                     640.000VND <s>800.000</s><span>VND</span>
@@ -235,17 +214,14 @@
                                 <h2>Travel Vinh Ha Long 2 Day-1 Night</h2>
                             </div>
                             <div class="tour-info-text sectionY10">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen book.
+                              Ha Long Bay is a must-visit destination in Vietnam, with stunning limestone karst formations and emerald waters. Visitors can take a cruise to explore the bay, visit floating fishing villages, and enjoy delicious seafood. The bay is a UNESCO World Heritage site and a natural wonder of the world.
                             </div>
-                            <div class="tour-info-price">
+                              <div class="tour-info-price">
                                 640.000VND <s>800.000</s><span>VND</span>
                             </div>
                             <div class="tour-info-button sectionY20">
                                 <button id="myBtnHiden2" class="button button2">BUY NOW</button>
                             </div>
-                        </div>
                     </div>
                 </div>
         </section>
@@ -591,7 +567,6 @@
     <script src="./js/ModalForm.js"></script>
     <!-- SideBarMini JS -->
     <script src="./js/sidebarMini.js"></script>
-    <!-- scrollAnimation JS -->
-    <script src="./js/scrollAnimation.js"></script>
+
   </body>
 </html>
