@@ -8,6 +8,10 @@
 body,html{
     background-color: #ECECEC;
     font-family: 'Poppins', sans-serif;
+    border: 1px solid gray;
+}
+html{
+  /* overflow: hidden; */
 }
 a{
   text-decoration: none;
@@ -442,7 +446,9 @@ header img{
   text-align: center;
   color: #000000;
 }
-
+.span-mobile{
+  display: none;
+}
 .tour-info-price s {
   font-size: 20px;
   color: #EF5050;
