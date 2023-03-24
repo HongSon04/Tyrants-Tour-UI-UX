@@ -1,24 +1,49 @@
-// Get the modal
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
 var btn = document.querySelector("#myBtnHiden");
-var btn = document.querySelector("#myBtnHiden1");
-var btn = document.querySelector("#myBtnHiden2");
-// Get the <span> element that closes the modal
+var btn1 = document.querySelector("#myBtnHiden1");
+var btn2 = document.querySelector("#myBtnHiden2");
+var btnalert = document.querySelector('#btn-alert');
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
-
-// When the user clicks on <span> (x), close the modal
+btnalert.onclick = function(){
+  alert('Sign Up Complete Please Wait Us Contact You !!');
+}
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+btn1.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+btn2.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";

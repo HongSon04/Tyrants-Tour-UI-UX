@@ -1309,7 +1309,7 @@ color: white;
   margin: 15% auto; 
   padding: 20px;
   border: 1px solid #888;
-  width: 40%; 
+  width: 25%; 
   border-radius: 10px;
 }
 
@@ -1330,13 +1330,36 @@ color: white;
 .form h1{
   text-align: center;
   margin-bottom: 15px;
+  color: #515151;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
 }
+.form-hiden-sign{
+  text-align: center;
+}
+.form-hiden-sign select,
 .form-hiden-sign input{
-  width: 300px;
+  width: 400px;
   height: 50px;
   padding-left: 15px;
   border-radius: 5px;
   margin: 10px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #8A8A8A;
+  letter-spacing: 0.0125em;
+  border: 1px solid #D0D0D0;
+  border-radius: 4px;
+}
+.form-hiden-sign select{
+  margin-bottom: 80px;
+}
+.form-hiden-sign option{
+  margin-bottom: 10px;
 }
 
 
