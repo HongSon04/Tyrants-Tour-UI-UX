@@ -1,5 +1,114 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px){
+    /* header responsive */
+    .nav{
+        display: none;
+    }
+    .overlay{
+        width: 300px !important;
+    }
+    .adventure_box{
+        display: none;
+        transform: translateX(100px) rotate(90deg) ;
+    }
+    .spotlight{
+        transform: translateX(-100px);
+    }
+    .spotlight_top,
+    .spotlight_bottom{
+        font-size: 75px;
+    }
+    .overlay_icons{
+        height: 100%;
+        transform: translateX(-40px) translateY(-20px);
+    }
+    .dots{
+        margin-top: 15px;
+    }
+    .overlay_text_box{
+        width: 300px !important;
+        height: 100px !important;
+        bottom: 40px;
+        transform: translateX(-40px) translateY(-20px);
+    }
+    .overlay_text_box_content{
+        width: 200px;
+        height: 100px;
+    }
+    .respon_nav_bars_btn {
+        display: block !important;
+    }
+    
+    .header-inner {
+        display: none;
+    }
+
+    .respon_nav {
+        transition: .5s ease;
+    }
+
+    .respon_overlay {
+        animation: overlay .3s ease alternate;
+    }
+
+    #respon_nav_btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #respon_nav_btn:checked~.respon_overlay {
+        display: block;
+    }
+
+    #respon_nav_btn:checked~.respon_nav {
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+        display: block !important;
+    }
+
+    @keyframes overlay {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+    /* end respon header */
+    /* need to know respon */
+    .needToKnow{
+        flex-direction: column;
+        justify-content: flex-start !important;
+    }
+    .left_side{
+        width: 100% !important;
+        height: 50%;
+    }
+    .left_side img{
+        width: 100%;
+    }
+    .right_side::before{
+        width: 402px;
+        height: 248px;
+        left: 20px;
+        top: -1px;
+    }
+    .right_side::after{
+        top: 3px !important;
+        left: 21px !important;
+    }
+    .rightside_content{
+        width: 400px;
+        padding: 0 !important;
+        padding-left: 40px !important;
+    }
+    .right_side_content_title{
+        margin-block: 20px !important; 
+    }
+    /* end need to know respon*/
     .tour .tour__items{
         display: block !important;
     }
@@ -41,116 +150,116 @@
         gap: 0px !important;
         height: 100% !important;
         
-     }
-       
-     #item-0 {
-        grid-row-start: 1 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 3 !important;
-        grid-column-end: 5 !important;
-        
-     }
-     #item-1 {
-        grid-row-start: 3 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 5 !important;
-        grid-column-end: 3 !important;
-        
-     }
-     #item-2 {
-        grid-row-start: 3 !important;
-        grid-column-start: 3 !important;
-     
-        grid-row-end: 5 !important;
-        grid-column-end: 5 !important;
-        
-     }
-     #item-3 {
-        grid-row-start: 5 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 7 !important;
-        grid-column-end: 3 !important;
-        
-     }
-     #item-4 {
-        grid-row-start: 5 !important;
-        grid-column-start: 3 !important;
-     
-        grid-row-end: 7 !important;
-        grid-column-end: 5 !important;
-        
-     }
-     #item-5 {
-        grid-row-start: 7 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 9 !important;
-        grid-column-end: 5 !important;
-        
-     } */
-     .angry-grid {
-        display: grid !important; 
-     
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
-        grid-template-columns: 1fr 1fr 1fr 1fr !important;
-        
-        gap: 0px !important;
-        height: 100% !important;
-        
-     }
-       
-     #item-0 {
-        grid-row-start: 1 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 4 !important;
-        grid-column-end: 5 !important;
-        
-     }
-     #item-1 {
-        grid-row-start: 4 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 6 !important;
-        grid-column-end: 3 !important;
-        
-     }
-     #item-2 {
-        grid-row-start: 4 !important;
-        grid-column-start: 3 !important;
-     
-        grid-row-end: 6 !important;
-        grid-column-end: 5 !important;
-        
-     }
-     #item-3 {
-        grid-row-start: 6 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 8 !important;
-        grid-column-end: 3 !important;
-        
-     }
-     #item-4 {
-        grid-row-start: 6 !important;
-        grid-column-start: 3 !important;
-     
-        grid-row-end: 8 !important;
-        grid-column-end: 5 !important;
-        
-     }
-     #item-5 {
-        grid-row-start: 8 !important;
-        grid-column-start: 1 !important;
-     
-        grid-row-end: 11 !important;
-        grid-column-end: 5 !important;
-        
-     }
-     .tourGuide__left {
+    }
+    
+    #item-0 {
+    grid-row-start: 1 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 3 !important;
+    grid-column-end: 5 !important;
+    
+    }
+    #item-1 {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 5 !important;
+    grid-column-end: 3 !important;
+    
+    }
+    #item-2 {
+    grid-row-start: 3 !important;
+    grid-column-start: 3 !important;
+    
+    grid-row-end: 5 !important;
+    grid-column-end: 5 !important;
+    
+    }
+    #item-3 {
+    grid-row-start: 5 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 7 !important;
+    grid-column-end: 3 !important;
+    
+    }
+    #item-4 {
+    grid-row-start: 5 !important;
+    grid-column-start: 3 !important;
+    
+    grid-row-end: 7 !important;
+    grid-column-end: 5 !important;
+    
+    }
+    #item-5 {
+    grid-row-start: 7 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 9 !important;
+    grid-column-end: 5 !important;
+    
+    } */
+    .angry-grid {
+    display: grid !important; 
+    
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    
+    gap: 0px !important;
+    height: 100% !important;
+    
+    }
+    
+    #item-0 {
+    grid-row-start: 1 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 4 !important;
+    grid-column-end: 5 !important;
+    
+    }
+    #item-1 {
+    grid-row-start: 4 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 6 !important;
+    grid-column-end: 3 !important;
+    
+    }
+    #item-2 {
+    grid-row-start: 4 !important;
+    grid-column-start: 3 !important;
+    
+    grid-row-end: 6 !important;
+    grid-column-end: 5 !important;
+    
+    }
+    #item-3 {
+    grid-row-start: 6 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 8 !important;
+    grid-column-end: 3 !important;
+    
+    }
+    #item-4 {
+    grid-row-start: 6 !important;
+    grid-column-start: 3 !important;
+    
+    grid-row-end: 8 !important;
+    grid-column-end: 5 !important;
+    
+    }
+    #item-5 {
+    grid-row-start: 8 !important;
+    grid-column-start: 1 !important;
+    
+    grid-row-end: 11 !important;
+    grid-column-end: 5 !important;
+    
+    }
+    .tourGuide__left {
         width: 40% !important;
     }
     .tourGuide__Title h2{
@@ -189,6 +298,63 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991.98px){
+    .nav {
+            display: none;
+        }
+    
+    .adventure_box {
+        display: none;
+    }
+
+    .spotlight {
+        font-size: 50px;
+        left: 1% !important;
+    }
+
+    /* header responsive */
+    .respon_nav_bars_btn {
+        display: block !important;
+    }
+
+    .header-inner {
+        display: none;
+    }
+
+    .respon_nav {
+        transition: .3s ease;
+    }
+
+    .respon_overlay {
+        animation: overlay .3s ease alternate;
+    }
+
+    #respon_nav_btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #respon_nav_btn:checked~.respon_overlay {
+        display: block;
+    }
+
+    #respon_nav_btn:checked~.respon_nav {
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    @keyframes overlay {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+    
+        /* end respon header */
     .tour .tour__items{
         display: block !important;
     }
