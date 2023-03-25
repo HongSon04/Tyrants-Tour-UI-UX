@@ -1341,7 +1341,7 @@ color: white;
 }
 .form-hiden-sign select,
 .form-hiden-sign input{
-  width: 400px;
+  width: 90%;
   height: 50px;
   padding-left: 15px;
   border-radius: 5px;
@@ -1361,8 +1361,32 @@ color: white;
 .form-hiden-sign option{
   margin-bottom: 10px;
 }
-
-
+.tour-rela{
+  position: relative;
+}
+.tag-sale{
+  background-color: #EF5050;
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  display: block;
+  top: 0px;
+  right: -181px;
+  transform: rotate(45deg);
+}
+.tag-sale p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 32px;
+  margin-left: 20px;
+  transform: rotate(3deg);
+}
 
 
 

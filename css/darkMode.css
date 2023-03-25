@@ -25,3 +25,7 @@ body.darkMode {
   .darkMode .right_side_content_text{
     color: #fff;
   }
+  .darkMode .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before,
+  .darkMode .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    background-color: white;
+  }
