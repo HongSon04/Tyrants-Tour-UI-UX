@@ -143,9 +143,10 @@
     #item-0, #item-1, #item-2, #item-3, #item-4, #item-5{
         margin: 8px !important;
     }
+
     .angry-grid {
         display: grid !important; 
-    
+     
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
         grid-template-columns: 1fr 1fr 1fr 1fr !important;
         
