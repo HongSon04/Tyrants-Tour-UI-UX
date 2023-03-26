@@ -239,13 +239,16 @@ header img{
   position: absolute;
   bottom: 0;
 }
+.arrow_right_icon{
+  transform: translateY(20px);
+}
 .overlay_text_box{
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 200px;
-  width: 100%;
+  width: 500px;
 }
 .overlay_text_box_title{
   font-weight: 700;
