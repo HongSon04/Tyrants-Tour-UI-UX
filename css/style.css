@@ -400,7 +400,7 @@ header img{
   z-index: 600;
   padding-top: 100px;
 }
-.fa-solid{
+.respon_nav_bars_btn{
   color: #FFFFFF;
   margin-right: 10px;
 }
@@ -961,10 +961,7 @@ button {
 
 .help {
   text-align: center;
-
   margin-top: 48px;
-
-
 }
 
 .help h1 {
@@ -982,8 +979,7 @@ button {
 }
 
 .help_item {
-  margin: 64px 10px 0;
-
+  margin: 64px 0 0;
   background-color: white;
 
 }
@@ -1059,7 +1055,7 @@ button {
 
 .testimonials_body--item {
   width: 400px;
-  height: 223px;
+  min-height: 223px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -1070,8 +1066,8 @@ button {
 }
 
 .testimonials_body--icon {
-  width: 64px;
-  height: 64px;
+  min-width: 64px;
+  min-height: 64px;
   border-radius: 50%;
   background-color: #D9D9D9;
   margin-top: 12px;
@@ -1153,7 +1149,9 @@ margin-top: 72px;
   border: 1px solid rgba(202, 202, 202, 0.4);
   margin: 28px;
 }
-
+.contact--icon i{
+  color: #000;
+}
 .contact_Email {
   grid-row: 2/3;
 }
@@ -1167,7 +1165,7 @@ margin-top: 72px;
 }
 
 .contact_Messenger {
-
+  
   background-color: white;
   grid-column: 2/4;
   grid-row: 1/6;
@@ -1233,7 +1231,8 @@ margin-top: 72px;
 }
 
 footer {
-  height: 309px;
+  margin-top: 110px;
+  min-height: 309px;
   width: auto;
   background-color: #1E40AF;
   text-align: center;
@@ -1245,11 +1244,11 @@ footer {
 footer::after {
   content: "";
   height: 52px;
-  width: 42%;
+  width: 30%;
   background-color: #1E3A8A;
   position: absolute;
   left: 0;
-  margin-top:257px;
+  margin-top: 257px;
   border-radius:100px 0px 0px  0px ;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -1257,7 +1256,7 @@ footer::after {
 .footer_main::before {
   content: "";
   height: 52px;
-  width: 42%;
+  width: 30%;
   background-color: #1E3A8A;
   position: absolute;
   right: 0;
@@ -1266,6 +1265,10 @@ footer::after {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .footer_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 .footer_content>ul>li {
@@ -1279,7 +1282,7 @@ color: white;
 }
 
 .footer_content p {
-  width: 787px;
+  width: 75%;
   left: 327px;
   top: 165px;
   overflow: hidden;
@@ -1344,7 +1347,7 @@ color: white;
 }
 .form-hiden-sign select,
 .form-hiden-sign input{
-  width: 400px;
+  width: 90%;
   height: 50px;
   padding-left: 15px;
   border-radius: 5px;
@@ -1364,8 +1367,32 @@ color: white;
 .form-hiden-sign option{
   margin-bottom: 10px;
 }
-
-
+.tour-rela{
+  position: relative;
+}
+.tag-sale{
+  background-color: #EF5050;
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  display: block;
+  top: 0px;
+  right: -181px;
+  transform: rotate(45deg);
+}
+.tag-sale p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 32px;
+  margin-left: 20px;
+  transform: rotate(3deg);
+}
 
 
 
