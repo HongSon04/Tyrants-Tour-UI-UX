@@ -284,6 +284,11 @@
     .tourGuide__Images img {
         display: none !important;
     }
+    /* footer respon */
+    .footer_logo{
+    
+    }
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
