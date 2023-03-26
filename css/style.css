@@ -241,10 +241,12 @@ header img{
 }
 .arrow_right_icon{
   transform: translateY(20px);
+  color: white;
+  font-size: 28px;  
 }
 .overlay_text_box{
   color: white;
-  display: flex;
+  display: flex; 
   flex-direction: column;
   justify-content: flex-end;
   height: 200px;
