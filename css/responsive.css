@@ -1,3 +1,595 @@
+/* Super Small device */
+@media screen and (max-width: 576px){
+    /* header responsive */
+    .modal-content{
+        width: 70% !important;
+        margin: 18% auto !important;
+    }
+    .nav {
+        display: none;
+    }
+    .my-container-mobile{
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 10px !important;
+    }
+    .overlay {
+        width: 340px !important;
+    }
+    .example{
+        height: 130px !important;
+    }
+    .adventure_box {
+        display: none;
+        transform: translateX(100px) rotate(90deg);
+    }
+
+    .spotlight {
+        transform: translateX(-100px);
+    }
+
+    .spotlight_top,
+    .spotlight_bottom {
+        font-size: 75px;
+    }
+
+    .overlay_icons {
+        height: 100%;
+        transform: translateX(-40px) translateY(-40px);
+        display: none !important;
+    }
+
+    .overlay_content_wrapper{
+        max-width: 800px !important;
+        min-width: 300px !important;
+        height: 100px;
+        left: 10px !important;
+        bottom: 10px !important;
+        /* padding-inline: 40px; */
+    }
+
+    .overlay_text_box {
+        width: 100% !important;
+        height: 100px !important;
+    }
+
+    .overlay_text_box_content {
+        width: 100%;
+        height: 100px;
+    }
+
+    .respon_nav_bars_btn {
+        display: block !important;
+    }
+
+    .header-inner {
+        display: none;
+    }
+
+    .respon_nav {
+        transition: .5s ease;
+    }
+
+    .respon_overlay {
+        animation: overlay .3s ease alternate;
+    }
+
+    #respon_nav_btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #respon_nav_btn:checked~.respon_overlay {
+        display: block;
+    }
+
+    #respon_nav_btn:checked~.respon_nav {
+        transform: translateX(0%) !important;
+        display: block !important;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    @keyframes overlay {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* end respon header */
+    /* need to know respon */
+    .needToKnow {
+        flex-direction: column;
+        justify-content: flex-start !important;
+    }
+
+    .left_side {
+        width: 100% !important;
+        height: 50%;
+    }
+
+    .left_side img {
+        width: 100%;
+    }
+
+    .right_side::before {
+        width: 100% !important;
+        height: 248px;
+        left: 20px;
+        top: -1px;
+    }
+
+    .right_side::after {
+        width: 99% !important;
+        top: 3px !important;
+        left: 21px !important;
+    }
+
+    .rightside_content {
+        width: 400px;
+        padding: 0 !important;
+        padding-left: 40px !important;
+    }
+
+    .right_side_content_title {
+        margin-block: 20px !important;
+    }
+
+    /* end need to know respon*/
+    .tour .tour__items {
+        display: block !important;
+    }
+
+    .tour .tour-left {
+        width: 100% !important;
+        margin: 25px 0 !important;
+    }
+
+    .tour .tour-right {
+        width: 100% !important;
+    }
+
+    .tour-info-price {
+        justify-content: center;
+        flex-direction: column-reverse !important;
+    }
+
+    .tour-info {
+        margin: 0 !important;
+    }
+
+    .tour-info-price span {
+        display: none;
+    }
+
+    .tour-info-mr-tablet {
+        margin-left: 15px !important;
+    }
+
+    .tour-info-img img {
+        padding: 20px 0 0 !important;
+        border-radius: 15px !important;
+        margin-bottom: 15px;
+    }
+
+    .destinnation__items {
+        padding: 12px !important;
+    }
+
+    #item-0,
+    #item-1,
+    #item-2,
+    #item-3,
+    #item-4,
+    #item-5 {
+        margin: 8px !important;
+    }
+
+    .angry-grid {
+        display: grid !important;
+
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+
+        gap: 0px !important;
+        height: 100% !important;
+
+    }
+
+    #item-0 {
+        grid-row-start: 1 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 4 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-1 {
+        grid-row-start: 4 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 6 !important;
+        grid-column-end: 3 !important;
+
+    }
+
+    #item-2 {
+        grid-row-start: 4 !important;
+        grid-column-start: 3 !important;
+
+        grid-row-end: 6 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-3 {
+        grid-row-start: 6 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 8 !important;
+        grid-column-end: 3 !important;
+
+    }
+
+    #item-4 {
+        grid-row-start: 6 !important;
+        grid-column-start: 3 !important;
+
+        grid-row-end: 8 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-5 {
+        grid-row-start: 8 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 11 !important;
+        grid-column-end: 5 !important;
+
+    }
+    #item-1:hover .textHoverShow__text,
+    #item-2:hover .textHoverShow__text,
+    #item-3:hover .textHoverShow__text,
+    #item-4:hover .textHoverShow__text {
+    transform: translateY(60px) !important;
+    font-size: 16px !important;
+    line-height: 22px;
+    }
+    #item-3:hover .textHoverShow__rate,
+    #item-4:hover .textHoverShow__rate {
+    transform: translateY(0px) !important;
+
+    }
+    #item-1:hover .textHoverShow__rate,
+    #item-2:hover .textHoverShow__rate{
+    transform: translateY(-20px) !important;
+    }
+
+    .tourGuide__left {
+        width: 40% !important;
+    }
+
+    .tourGuide__Title h2 {
+        margin-left: 20px !important;
+    }
+
+    .tourGuide__right {
+        width: 60% !important;
+    }
+
+    .tourGuide__left img {
+        height: 445px !important;
+    }
+
+    .tourGuide__border h2 {
+        margin: 10px 0 0 20px !important;
+        font-size: 25px !important;
+    }
+
+    .tourGuide__border h3 {
+        margin: 10px 0 10px 20px !important;
+        font-size: 16px !important;
+    }
+
+    .tourGuide__border p {
+        margin: 10px 0 10px 20px !important;
+        font-size: 12px !important;
+    }
+
+    .tourGuide__border {
+        width: 95% !important;
+        height: 75% !important;
+    }
+
+    .tourGuide__Icons div {
+        margin: 15px 0px 0px 20px !important;
+    }
+
+    .tourGuide__Images img {
+        display: none !important;
+    }
+    .tour .tour__items {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+    .mobile-hidden{
+        display: none !important;
+    }
+    .tour .tour-left {
+        width: 100% !important;
+        margin: 25px 0 !important;
+    }
+    .mobile-show{
+        display: block !important;
+    }
+    .flipdown1{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .tour .tour-right {
+        width: 100% !important;
+    }
+    .tag-sale{
+        top: -5px !important;
+    }
+    .tour-info-price {
+        justify-content: center;
+        flex-direction: column-reverse !important;
+    }
+
+    .tour-info {
+        margin: 0 !important;
+    }
+
+    .tour-info-price span {
+        display: none;
+    }
+
+    .tour-info-mr-tablet {
+        margin-left: 15px !important;
+    }
+
+    .tour-info-img img {
+        padding: 20px 0 0 !important;
+        border-radius: 15px !important;
+        margin-bottom: 15px;
+    }
+
+    .destinnation__items {
+        padding: 12px !important;
+    }
+
+    #item-0,
+    #item-1,
+    #item-2,
+    #item-3,
+    #item-4,
+    #item-5 {
+        margin: 8px !important;
+    }
+
+    .angry-grid {
+        display: grid !important;
+
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+
+        gap: 0px !important;
+        height: 100% !important;
+
+    }
+
+    #item-0 {
+        grid-row-start: 1 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 4 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-1 {
+        grid-row-start: 4 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 6 !important;
+        grid-column-end: 3 !important;
+
+    }
+
+    #item-2 {
+        grid-row-start: 4 !important;
+        grid-column-start: 3 !important;
+
+        grid-row-end: 6 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-3 {
+        grid-row-start: 6 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 8 !important;
+        grid-column-end: 3 !important;
+
+    }
+
+    #item-4 {
+        grid-row-start: 6 !important;
+        grid-column-start: 3 !important;
+
+        grid-row-end: 8 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-5 {
+        grid-row-start: 8 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 11 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    .tourGuide__left {
+        width: 40% !important;
+    }
+
+    .tourGuide__Title h2 {
+        margin-left: 20px !important;
+    }
+
+    .tourGuide__right {
+        width: 60% !important;
+    }
+
+    .tourGuide__left img {
+        height: 445px !important;
+    }
+
+    .tourGuide__border h2 {
+        margin: 10px 0 0 20px !important;
+        font-size: 25px !important;
+    }
+
+    .tourGuide__border h3 {
+        margin: 10px 0 10px 20px !important;
+        font-size: 16px !important;
+    }
+
+    .tourGuide__border p {
+        margin: 10px 0 10px 20px !important;
+        font-size: 12px !important;
+    }
+
+    .tourGuide__border {
+        width: 95% !important;
+        height: 75% !important;
+    }
+
+    .tourGuide__Icons div {
+        margin: 15px 0px 0px 20px !important;
+    }
+
+    .tourGuide__Images img {
+        display: none !important;
+    }
+    .Help_item--primary {
+        width: auto !important;
+    }
+    .help_body {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .contact_body {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(11, 120px) !important;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+
+    .contact_phone {
+        grid-row: 8/9;
+        grid-column: 1/2;
+    }
+
+    .contact_Email {
+        grid-row: 9/10 !important;
+
+    }
+
+    .contact_Address {
+        grid-row: 10/11 !important;
+
+    }
+
+    .contact_Location {
+        grid-row: 11/12 !important;
+    }
+
+    .contact_Messenger--form {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(6, 1fr) !important;
+        grid-row-gap: 20px;
+    }
+
+    .contact_Messenger {
+        background-color: transparent !important;
+        grid-column: 1/3 !important;
+        grid-row: 1/6 !important;
+        margin: 0 0 !important;
+    }
+    .contact_phone,
+    .contact_Email,
+    .contact_Address,
+    .contact_Location,
+    .contact_Messenger{
+        margin-left: 20px !important;
+    }
+
+    .First_name,
+    .Last_name,
+    .Phone_number,
+    .Email,
+    .messenger{
+        grid-column: 1/8 !important;
+        margin-left: 0 !important;
+    }
+    .First_name {
+        grid-row: 1/2;
+    }
+    .Last_name {
+        grid-row: 2/3;
+    }
+
+    .Phone_number {
+        grid-row: 3/4;
+    }
+
+    .Email {
+        grid-row: 4/5;
+    }
+
+    .messenger {
+        grid-row: 5/7 !important;
+    }
+
+    .contact_Messenger--btn {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    footer::after {
+        margin-top: 430px !important;
+    }
+    .contact_Messenger--btn button {
+        margin: 20px !important;
+    }   
+
+    .footer_main::before {
+        margin-top: 430px !important;
+    }
+    .footer_content>ul>li {
+        display: inline-block;
+        margin: 20px !important;
+      }
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -497,6 +1089,10 @@
     .tourGuide__Images img {
         display: none !important;
     }
+    .modal-content{
+        width: 70% !important;
+        margin: 18% auto !important;
+    }
 }
 
 /* responsive MDuy */
@@ -916,6 +1512,10 @@
         display: flex !important;
         justify-content: center !important;
     }
+    .modal-content{
+        width: 65% !important;
+        margin: 12% auto !important;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -925,31 +1525,14 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
-
-/* Responsive Duy */
-
-@media screen and (min-width: 320px) and (max-width: 767.9px) {
-    .Help_item--primary {
-        width: auto !important;
-    }
-
-    .help_body {
-        display: flex;
-        flex-direction: column !important;
-    }
-
-    .contact_body {
-        display: grid;
-        grid-template-columns: 1fr !important;
-        grid-template-rows: repeat(11, 120px) !important;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-        justify-content: center;
-    }
+@media (min-width: 1200px) {
+    
+}
 
     .contact_phone {
         grid-row: 8/9;
@@ -1065,7 +1648,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .contact_body {
         display: grid;
         grid-template-columns: 1fr 1fr !important;
