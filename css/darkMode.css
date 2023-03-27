@@ -22,34 +22,28 @@ body.darkMode {
     content: "";
     background-color: #292929;
   }
-  .darkMode .right_side_content_text{
-    color: #fff;
-  }
   .darkMode .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before,
   .darkMode .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
     background-color: white;
   }
-  .darkMode .tour-left__top h1{
-    color: #fff;
-  }
-  .darkMode .flipdown.flipdown__theme-dark .rotor-group-heading::before{
-    color: #fff;
-  }
-  .darkMode .destinnation__title h1{
-    color: white;
-  }
-  .darkMode .destinnation__title p{
-    color: #fff;
-  }
-  .darkMode .tourGuide__Title h2{
-    color: white;
-  }
-  .darkMode h1,
-  .darkMode p,
+  .darkMode .right_side_content_text,
+  .darkMode .tour-left__top h1,
+  .darkMode .flipdown.flipdown__theme-dark .rotor-group-heading::before,
+  .darkMode .destinnation__title h1,
+  .darkMode .destinnation__title p,
+  .darkMode .tourGuide__Title h2,
+  .darkMode .contact_header h1,
+  .darkMode .testimonials--title p,
   .darkMode .help h5,
   .darkMode .help h1,
+  .darkMode .right_side_content_title,
   .darkMode .tourGuide__border p,
   .darkMode .tourGuide__border h3,
   .darkMode .tourGuide__border h2{
     color: #fff;
+  }
+  .darkMode .contact_body,
+  .darkMode .testimonials_body--name,
+  .darkMode .testimonials_body--comment p{
+    color: black;
   }
