@@ -627,7 +627,7 @@
     }
 
     .adventure_box {
-        display: none;
+        display: none !important;
     }
 
     .spotlight {
