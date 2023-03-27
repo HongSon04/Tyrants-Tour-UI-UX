@@ -1162,7 +1162,7 @@ margin-top: 72px;
   height: 64px;
   width: 64px;
   border-radius: 50%;
-  background: #F0F9FF;
+  background: #FFFFFF;
   border: 1px solid rgba(202, 202, 202, 0.4);
   margin: 28px;
 }
@@ -1190,7 +1190,6 @@ margin-top: 72px;
 
 .contact_Messenger--header {
   margin: 48px 24px;
-
 }
 
 .contact_Messenger h3 {
