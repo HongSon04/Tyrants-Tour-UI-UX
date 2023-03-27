@@ -8,6 +8,7 @@
 body,html{
     background-color: #ECECEC;
     font-family: 'Poppins', sans-serif , 'roboto';
+    border: 1px solid gray;
 }
 a{
   text-decoration: none;
@@ -267,7 +268,7 @@ header img{
   font-weight: 100;
   font-size: 100px;
   color: #968A4A;
-  transform: translateX(230%) rotate(-90deg);
+  transform: rotate(-90deg);
   animation: adventure_box 1s linear 1;
 }
 
