@@ -260,24 +260,25 @@ header img{
 }
 .adventure_box {
   isolation: isolate;
-  position: absolute;
+  position: relative;
+  right: -40%;
+  bottom: 200px;
   font-style: normal;
-  top: 300px;
   font-weight: 100;
   font-size: 100px;
   color: #968A4A;
-  transform: translateX(230%) rotate(-90deg);
+  transform: rotate(-90deg);
   animation: adventure_box 1s linear 1;
 }
 
 @keyframes adventure_box {
   0% {
-    transform: translateY(100px) translateX(230%) rotate(-90deg);
+    transform: translateY(100px) rotate(-90deg);
     opacity: 0;
   }
 
   100% {
-    transform: translateY(0) translateX(230%) rotate(-90deg);
+    transform: translateY(0) rotate(-90deg);
     opacity: 1;
   }
 }
