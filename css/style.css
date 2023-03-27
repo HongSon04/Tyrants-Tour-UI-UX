@@ -8,7 +8,6 @@
 body,html{
     background-color: #ECECEC;
     font-family: 'Poppins', sans-serif , 'roboto';
-    border: 1px solid gray;
 }
 a{
   text-decoration: none;
