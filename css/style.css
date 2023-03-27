@@ -267,7 +267,7 @@ header img{
   font-weight: 100;
   font-size: 100px;
   color: #968A4A;
-  transform: rotate(-90deg);
+  transform: translateX(230%) rotate(-90deg);
   animation: adventure_box 1s linear 1;
 }
 
@@ -480,7 +480,7 @@ header img{
   padding: 28px 0 18px;
 }
 .img--height{
-  height: 575px !important;
+  height: 560px !important;
 }
 .tour-info-title h2 {
   font-family: 'Poppins';

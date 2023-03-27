@@ -1,6 +1,10 @@
 /* Super Small device */
 @media screen and (max-width: 576px){
     /* header responsive */
+    .modal-content{
+        width: 70% !important;
+        margin: 18% auto !important;
+    }
     .nav {
         display: none;
     }
@@ -1074,6 +1078,10 @@
     .tourGuide__Images img {
         display: none !important;
     }
+    .modal-content{
+        width: 70% !important;
+        margin: 18% auto !important;
+    }
 }
 
 /* responsive MDuy */
@@ -1475,6 +1483,10 @@
         display: flex !important;
         justify-content: center !important;
     }
+    .modal-content{
+        width: 65% !important;
+        margin: 12% auto !important;
+    }
 }
 @media (max-width: 1200px) {
     .adventure_box{
@@ -1483,9 +1495,17 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    
-}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .modal-content{
+        width: 50% !important;
+        margin: 12% auto !important;
+    }
+    .tour-info-price{
+        display: flex !important;
+    }
+    .tour-info-price p{
+        display: block;
+    }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
