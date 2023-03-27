@@ -48,7 +48,7 @@
     }
 
     .spotlight {
-        transform: translateX(-225px) !important;
+        transform: translateX(-225px) translateY(-50px) !important;
     }
 
     .spotlight_top,
@@ -135,6 +135,16 @@
         top: 60%;
         left: 50%;
         transform: translate(-50%,-50%);
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        line-height: 42px;
+        font-weight: 700;
+        transition: .2s linear;
+    }
+    .respon_exlore_button:active{
+        transform: translateY(3px) translate(-50%, -50%);
+        opacity: 0.6;
     }
     /* end respon header */
     /* need to know respon */
