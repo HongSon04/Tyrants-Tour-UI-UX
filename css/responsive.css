@@ -242,6 +242,23 @@
         grid-column-end: 5 !important;
 
     }
+    #item-1:hover .textHoverShow__text,
+    #item-2:hover .textHoverShow__text,
+    #item-3:hover .textHoverShow__text,
+    #item-4:hover .textHoverShow__text {
+    transform: translateY(60px) !important;
+    font-size: 16px !important;
+    line-height: 22px;
+    }
+    #item-3:hover .textHoverShow__rate,
+    #item-4:hover .textHoverShow__rate {
+    transform: translateY(0px) !important;
+
+    }
+    #item-1:hover .textHoverShow__rate,
+    #item-2:hover .textHoverShow__rate{
+    transform: translateY(-20px) !important;
+    }
 
     .tourGuide__left {
         width: 40% !important;
@@ -286,28 +303,38 @@
     .tourGuide__Images img {
         display: none !important;
     }
-    /* footer respon */
-    .footer_logo{
-    
-    }
+
     
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     .tour .tour__items {
-        display: block !important;
+        display: flex !important;
+        flex-direction: column-reverse !important;
     }
-
+    .mobile-hidden{
+        display: none !important;
+    }
     .tour .tour-left {
         width: 100% !important;
         margin: 25px 0 !important;
+    }
+    .mobile-show{
+        display: block !important;
+    }
+    .flipdown1{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
     }
 
     .tour .tour-right {
         width: 100% !important;
     }
-
+    .tag-sale{
+        top: -5px !important;
+    }
     .tour-info-price {
         justify-content: center;
         flex-direction: column-reverse !important;
@@ -553,7 +580,10 @@
     .nav {
         display: none;
     }
-
+    .tour .tour__items {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
     .overlay_text_box {
         width: 300px !important;
         height: 100px !important;
@@ -621,10 +651,6 @@
         width: 350px !important;
     }
 
-    /* end need to know respon */
-    .tour .tour__items {
-        display: block !important;
-    }
 
     .tour .tour-left {
         width: 100% !important;
@@ -670,6 +696,88 @@
         margin: 8px !important;
     }
 
+    .angry-grid {
+        display: grid !important;
+
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+
+        gap: 0px !important;
+        height: 100% !important;
+
+    }
+
+    #item-0 {
+        grid-row-start: 1 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 4 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-1 {
+        grid-row-start: 4 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 6 !important;
+        grid-column-end: 3 !important;
+
+    }
+
+    #item-2 {
+        grid-row-start: 4 !important;
+        grid-column-start: 3 !important;
+
+        grid-row-end: 6 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-3 {
+        grid-row-start: 6 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 8 !important;
+        grid-column-end: 3 !important;
+
+    }
+
+    #item-4 {
+        grid-row-start: 6 !important;
+        grid-column-start: 3 !important;
+
+        grid-row-end: 8 !important;
+        grid-column-end: 5 !important;
+
+    }
+
+    #item-5 {
+        grid-row-start: 8 !important;
+        grid-column-start: 1 !important;
+
+        grid-row-end: 11 !important;
+        grid-column-end: 5 !important;
+
+    }
+    #item-1:hover .textHoverShow__text,
+    #item-2:hover .textHoverShow__text,
+    #item-3:hover .textHoverShow__text,
+    #item-4:hover .textHoverShow__text {
+    transform: translateY(60px) !important;
+    font-size: 16px !important;
+    line-height: 22px;
+    }
+    #item-3:hover .textHoverShow__rate,
+    #item-4:hover .textHoverShow__rate {
+    transform: translateY(0px) !important;
+
+    }
+    #item-1:hover .textHoverShow__rate,
+    #item-2:hover .textHoverShow__rate{
+    transform: translateY(-20px) !important;
+    }
+
     .tourGuide__left img {
         height: 640px !important;
     }
@@ -698,6 +806,17 @@
     .tourGuide__Images img {
         width: 280px !important;
         height: 181px !important;
+    }
+    .mobile-hidden{
+        display: none !important;
+    }
+    .mobile-show{
+        display: block !important;
+    }
+    .flipdown1{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
     }
 }
 
