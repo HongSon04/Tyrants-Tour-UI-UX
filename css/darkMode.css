@@ -22,6 +22,7 @@ body.darkMode {
     content: "";
     background-color: #292929;
   }
+  .darkMode #myBtn,
   .darkMode .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before,
   .darkMode .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
     background-color: white;
@@ -42,6 +43,7 @@ body.darkMode {
   .darkMode .tourGuide__border h2{
     color: #fff;
   }
+  .darkMode #myBtn,
   .darkMode .contact_body,
   .darkMode .testimonials_body--name,
   .darkMode .testimonials_body--comment p{
