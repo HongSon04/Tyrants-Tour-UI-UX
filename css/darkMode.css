@@ -29,3 +29,27 @@ body.darkMode {
   .darkMode .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
     background-color: white;
   }
+  .darkMode .tour-left__top h1{
+    color: #fff;
+  }
+  .darkMode .flipdown.flipdown__theme-dark .rotor-group-heading::before{
+    color: #fff;
+  }
+  .darkMode .destinnation__title h1{
+    color: white;
+  }
+  .darkMode .destinnation__title p{
+    color: #fff;
+  }
+  .darkMode .tourGuide__Title h2{
+    color: white;
+  }
+  .darkMode h1,
+  .darkMode p,
+  .darkMode .help h5,
+  .darkMode .help h1,
+  .darkMode .tourGuide__border p,
+  .darkMode .tourGuide__border h3,
+  .darkMode .tourGuide__border h2{
+    color: #fff;
+  }
