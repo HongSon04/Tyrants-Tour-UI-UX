@@ -8,6 +8,13 @@
     .nav {
         display: none;
     }
+    #header img{
+        display: none !important;
+    }
+    #header{
+        background-image: url(/assets/imgs/header-bg.png);
+        background-position: 1050px;
+    }
     .my-container-mobile{
         width: 100% !important;
         margin: 0 auto !important;
@@ -15,6 +22,7 @@
     }
     .overlay {
         width: 340px !important;
+        display: none !important;   
     }
     .example{
         height: 130px !important;
@@ -25,7 +33,7 @@
     }
 
     .spotlight {
-        transform: translateX(-100px);
+        transform: translateX(-220px) !important;
     }
 
     .spotlight_top,
@@ -45,7 +53,7 @@
         height: 100px;
         left: 10px !important;
         bottom: 10px !important;
-        /* padding-inline: 40px; */
+        display: none !important;
     }
 
     .overlay_text_box {
@@ -100,7 +108,19 @@
             opacity: 1;
         }
     }
-
+    .respon_exlore_button{
+        display: block !important;
+        width: 200px;
+        height: 42px;
+        border: 1px solid #eee;
+        background: transparent;
+        outline: none;
+        border-radius: 10px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
     /* end respon header */
     /* need to know respon */
     .needToKnow {
@@ -117,27 +137,36 @@
         width: 100%;
     }
 
+    .right_side{
+        width: 100% !important;
+    }
     .right_side::before {
         width: 100% !important;
         height: 248px;
-        left: 20px;
         top: -1px;
     }
 
     .right_side::after {
         width: 99% !important;
         top: 3px !important;
-        left: 21px !important;
+        left: 1px !important;
     }
 
     .rightside_content {
-        width: 400px;
+        max-width: 350px;
         padding: 0 !important;
-        padding-left: 40px !important;
     }
 
     .right_side_content_title {
-        margin-block: 20px !important;
+        /* margin-block: 20px !important; */
+        max-width: 350px;
+        font-size: 33px !important;
+    }
+    .right_side_content_text{
+        display: none !important;
+    }
+    .right_side_content_text_respon{
+        display: block !important;
     }
 
     /* end need to know respon*/
@@ -588,7 +617,7 @@
     .footer_content>ul>li {
         display: inline-block;
         margin: 20px !important;
-      }
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -612,8 +641,8 @@
     }
 
     .spotlight {
-        transform: translateX(-100px);
-    }
+        transform: translateX(-100px) translateY(50px) !important;
+    } 
 
     .spotlight_top,
     .spotlight_bottom {
@@ -1189,7 +1218,7 @@
     .footer_content>ul>li {
         display: inline-block;
         margin: 20px !important;
-      }
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
