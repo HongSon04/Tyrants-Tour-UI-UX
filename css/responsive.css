@@ -587,7 +587,10 @@
     .footer_main::before {
         margin-top: 430px !important;
     }
-
+    .footer_content>ul>li {
+        display: inline-block;
+        margin: 30px !important;
+      }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -919,6 +922,7 @@
     .Help_item--primary{
         margin: 0 !important;
     }
+
 }
 @media screen and (min-width: 992px) and (max-width: 1250px){
     .contact_body {
