@@ -5,6 +5,7 @@ const button2 = document.querySelector(".button2");
 const button3 = document.querySelector(".button3");
 const button4 = document.querySelector(".button4");
 const button5 = document.querySelector(".button5");
+const button6 = document.querySelector(".button6");
 button.addEventListener("click", (e) => {
   e.preventDefault;
   button.classList.add("animate");
@@ -49,4 +50,12 @@ button5.addEventListener("click", (e) => {
     button5.classList.remove("animate");
   }, 600);
 });
+button6.addEventListener("click", (e) => {
+  e.preventDefault;
+  button6.classList.add("animate");
+  setTimeout(() => {
+    button6.classList.remove("animate");
+  }, 600);
+});
+
 
