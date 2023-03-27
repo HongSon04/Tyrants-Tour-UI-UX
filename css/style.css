@@ -1186,10 +1186,17 @@ margin-top: 72px;
   background-color: white;
   grid-column: 2/4;
   grid-row: 1/9;
+  margin: 0 !important;
+}
+
+.contact_Messenger--title{
+  margin-left: 20px !important;
 }
 
 .contact_Messenger--header {
-  margin: 48px 24px;
+  /* margin: 48px 24px;
+   */
+  margin-right: 20px;
 }
 
 .contact_Messenger h3 {

@@ -523,7 +523,6 @@
         display: grid;
         grid-template-columns: 1fr !important;
         grid-template-rows: repeat(6, 1fr) !important;
-        grid-column-gap: 20px;
         grid-row-gap: 20px;
     }
 
@@ -533,11 +532,25 @@
         grid-row: 1/6 !important;
         margin: 0 0 !important;
     }
+    .contact_phone,
+    .contact_Email,
+    .contact_Address,
+    .contact_Location,
+    .contact_Messenger{
+        margin-left: 20px !important;
+    }
 
+    .First_name,
+    .Last_name,
+    .Phone_number,
+    .Email,
+    .messenger{
+        grid-column: 1/8 !important;
+        margin-left: 0 !important;
+    }
     .First_name {
         grid-row: 1/2;
     }
-
     .Last_name {
         grid-row: 2/3;
     }
@@ -562,7 +575,7 @@
     }
     footer::after {
         margin-top: 430px !important;
-      }
+    }
     .contact_Messenger--btn button {
         margin: 20px !important;
     }   
