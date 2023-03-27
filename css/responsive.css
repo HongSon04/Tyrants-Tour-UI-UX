@@ -5,7 +5,11 @@
     .nav {
         display: none;
     }
-
+    .my-container-mobile{
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 10px !important;
+    }
     .overlay {
         width: 340px !important;
     }
