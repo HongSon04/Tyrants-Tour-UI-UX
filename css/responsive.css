@@ -5,6 +5,10 @@
         width: 70% !important;
         margin: 18% auto !important;
     }
+    .tour-info{
+        max-height: 80% !important;
+        margin: 0 !important;
+    }
     .nav {
         display: none;
     }
@@ -16,8 +20,15 @@
     .overlay {
         width: 340px !important;
     }
+    .tour-left__top h1{
+        margin-top: 20px !important;
+    }
+    .tour-info-img .img--height {
+        height: 450px !important;
+    }
     .example{
-        height: 130px !important;
+        height: 100px !important;
+        padding: 0 !important;
     }
     .adventure_box {
         display: none;
@@ -159,9 +170,6 @@
         flex-direction: column-reverse !important;
     }
 
-    .tour-info {
-        margin: 0 !important;
-    }
 
     .tour-info-price span {
         display: none;
@@ -176,7 +184,10 @@
         border-radius: 15px !important;
         margin-bottom: 15px;
     }
+    .tour-info-img-mobile img{
+        height: 210px !important;
 
+    }
     .destinnation__items {
         padding: 12px !important;
     }
@@ -271,7 +282,12 @@
     #item-2:hover .textHoverShow__rate{
     transform: translateY(-20px) !important;
     }
-
+    .textHoverShow{
+        margin-left: 10px !important;
+    }
+    .textHoverShow__text{
+        font-size: 12px;
+    }
     .tourGuide__left {
         width: 40% !important;
     }
@@ -291,6 +307,7 @@
     .tourGuide__border h2 {
         margin: 10px 0 0 20px !important;
         font-size: 25px !important;
+        line-height: 35px !important;
     }
 
     .tourGuide__border h3 {
@@ -309,7 +326,7 @@
     }
 
     .tourGuide__Icons div {
-        margin: 15px 0px 0px 20px !important;
+        margin: 20px 0px 0px 10px !important;
     }
 
     .tourGuide__Images img {
@@ -345,11 +362,6 @@
         justify-content: center;
         flex-direction: column-reverse !important;
     }
-
-    .tour-info {
-        margin: 0 !important;
-    }
-
     .tour-info-price span {
         display: none;
     }
@@ -476,10 +488,6 @@
     .tourGuide__border {
         width: 95% !important;
         height: 75% !important;
-    }
-
-    .tourGuide__Icons div {
-        margin: 15px 0px 0px 20px !important;
     }
 
     .tourGuide__Images img {
