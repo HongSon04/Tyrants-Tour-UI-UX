@@ -24,6 +24,9 @@
         margin: 0 auto !important;
         padding: 0 10px !important;
     }
+    .tour-left .tour-left__bottom{
+        display: block !important;
+    }
     .overlay {
         width: 340px !important;
         display: none !important;   
@@ -31,6 +34,7 @@
     .tour-left__top h1{
         margin-top: 20px !important;
     }
+    .tour-info-img .img--height1,
     .tour-info-img .img--height {
         height: 450px !important;
     }
@@ -203,18 +207,10 @@
         display: none;
     }
 
-    .tour-info-mr-tablet {
-        margin-left: 15px !important;
-    }
-
     .tour-info-img img {
         padding: 20px 0 0 !important;
         border-radius: 15px !important;
         margin-bottom: 15px;
-    }
-    .tour-info-img-mobile img{
-        height: 210px !important;
-
     }
     .destinnation__items {
         padding: 12px !important;
@@ -392,10 +388,6 @@
     }
     .tour-info-price span {
         display: none;
-    }
-
-    .tour-info-mr-tablet {
-        margin-left: 15px !important;
     }
 
     .tour-info-img img {
@@ -1279,9 +1271,8 @@
     }
 
     .adventure_box {
-        <<<<<<< Updated upstream display: none !important;
-        =======display: none;
-        >>>>>>>Stashed changes
+       display: none !important;
+        
     }
 
     .spotlight {
@@ -1561,24 +1552,12 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-    .modal-content{
-        width: 50% !important;
-        margin: 12% auto !important;
-    }
-    .tour-info-price{
-        display: flex !important;
-    }
-    .tour-info-price p{
-        display: block;
-    }
-}
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
 /* Responsive Duy */
 
-@media screen and (min-width: 320px) and (max-width: 767.9px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
     .Help_item--primary {
         width: auto !important;
     }
@@ -1692,12 +1671,10 @@
     }
     .testimonials_body{
         flex-direction: column !important;
+        align-items: center;
     }
     .testimonials_body--item{
         margin: 5px !important;
-    }
-    .footer_content p{
-        display: none;
     }
     .help h1{
         margin-top:100px;
@@ -1711,8 +1688,7 @@
 
 }
 
-/* @media screen and (min-width: 768px) and (max-width: 991.98px) { */
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     .contact_body {
         display: grid;
         grid-template-columns: 1fr 1fr !important;
@@ -1788,7 +1764,7 @@
         margin: 0 !important;
     }
 
-}
+} 
 
 @media screen and (min-width: 992px) and (max-width: 1250px) {
     .contact_body {
