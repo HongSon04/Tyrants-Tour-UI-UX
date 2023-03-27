@@ -12,7 +12,9 @@
     .overlay {
         width: 340px !important;
     }
-
+    .example{
+        height: 130px !important;
+    }
     .adventure_box {
         display: none;
         transform: translateX(100px) rotate(90deg);
