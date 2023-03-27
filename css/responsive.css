@@ -17,12 +17,16 @@
         margin: 0 auto !important;
         padding: 0 10px !important;
     }
+    .tour-left .tour-left__bottom{
+        display: block !important;
+    }
     .overlay {
         width: 340px !important;
     }
     .tour-left__top h1{
         margin-top: 20px !important;
     }
+    .tour-info-img .img--height1,
     .tour-info-img .img--height {
         height: 450px !important;
     }
@@ -175,18 +179,10 @@
         display: none;
     }
 
-    .tour-info-mr-tablet {
-        margin-left: 15px !important;
-    }
-
     .tour-info-img img {
         padding: 20px 0 0 !important;
         border-radius: 15px !important;
         margin-bottom: 15px;
-    }
-    .tour-info-img-mobile img{
-        height: 210px !important;
-
     }
     .destinnation__items {
         padding: 12px !important;
@@ -364,10 +360,6 @@
     }
     .tour-info-price span {
         display: none;
-    }
-
-    .tour-info-mr-tablet {
-        margin-left: 15px !important;
     }
 
     .tour-info-img img {
@@ -1251,9 +1243,8 @@
     }
 
     .adventure_box {
-        <<<<<<< Updated upstream display: none !important;
-        =======display: none;
-        >>>>>>>Stashed changes
+        display: none !important;
+        display: none;
     }
 
     .spotlight {
@@ -1533,47 +1524,14 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-<<<<<<< HEAD
-@media (min-width: 992px) {}
-
-=======
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-    .modal-content{
-        width: 50% !important;
-        margin: 12% auto !important;
-    }
-    .tour-info-price{
-        display: flex !important;
-    }
-    .tour-info-price p{
-        display: block;
-    }
+@media (min-width: 992px) {
+    
 }
->>>>>>> 741dc9a21a21b01699e498b982a4fe278d4abaeb
+
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
-
-/* Responsive Duy */
-
-<<<<<<< HEAD
-@media screen and (min-width: 320px) and (max-width: 767.9px) {
-    .Help_item--primary {
-        width: auto !important;
-    }
-
-    .help_body {
-        display: flex;
-        flex-direction: column !important;
-    }
-
-    .contact_body {
-        display: grid;
-        grid-template-columns: 1fr !important;
-        grid-template-rows: repeat(11, 120px) !important;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-        justify-content: center;
-    }
+@media (min-width: 1200px) {
+    
+}
 
     .contact_phone {
         grid-row: 8/9;
@@ -1689,8 +1647,6 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-=======
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 >>>>>>> 741dc9a21a21b01699e498b982a4fe278d4abaeb
     .contact_body {
