@@ -256,7 +256,7 @@ header img{
   font-weight: 500;
   font-size: 12px;
   height: 100px;
-  max-width: 500px;
+  max-width: 415px !important;
 }
 .adventure_box {
   isolation: isolate;
