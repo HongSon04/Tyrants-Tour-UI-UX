@@ -256,8 +256,8 @@ header img{
 .overlay_text_box_content{
   font-weight: 500;
   font-size: 12px;
-  padding-right: 20px;
   height: 100px;
+  max-width: 500px;
 }
 .adventure_box {
   isolation: isolate;
@@ -267,18 +267,18 @@ header img{
   font-weight: 100;
   font-size: 100px;
   color: #968A4A;
-  transform: translateX(1150px) rotate(-90deg);
+  transform: translateX(230%) rotate(-90deg);
   animation: adventure_box 1s linear 1;
 }
 
 @keyframes adventure_box {
   0% {
-    transform: translateY(100px) translateX(1150px) rotate(-90deg);
+    transform: translateY(100px) translateX(230%) rotate(-90deg);
     opacity: 0;
   }
 
   100% {
-    transform: translateY(0) translateX(1150px) rotate(-90deg);
+    transform: translateY(0) translateX(230%) rotate(-90deg);
     opacity: 1;
   }
 }
@@ -310,7 +310,8 @@ header img{
 .right_side::before{
   content: "";
   position: absolute;
-  width: 401px;
+  max-width: 100%;
+  width: 60.5%;
   height: 250px;
   background-color: #F7C04A;
   top: 20%;
@@ -318,12 +319,14 @@ header img{
 .right_side::after{
   content: "";
   position: absolute;
-  width: 398px;
+  max-width: 99.5%;
+  width: 60%;
   height: 245px;
   background-color: #FFFFFF;
   top: 150px;
 }
 .rightside_content{
+  max-width: 600px;
   position: absolute;
   z-index: 20;
   padding-inline: 60px;
@@ -336,6 +339,7 @@ header img{
   margin-block: 25px;
 }
 .right_side_content_text{
+  max-width: 400px;
   font-weight: 500;
   font-size: 14px;
   color: #000;
